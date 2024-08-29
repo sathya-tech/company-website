@@ -52,3 +52,18 @@
 .title-text {
   display: inline-block;
 }
+
+/* Ensures proper alignment of images and text for mobile screens */
+@media (max-width: 767px) {
+  .projects .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .projects .card-body .col-md-12,
+  .projects .card-body .col {
+    margin: 15px 0;
+  }
+}
