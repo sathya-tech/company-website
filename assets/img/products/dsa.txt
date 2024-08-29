@@ -1,0 +1,49 @@
+Concepts to learn
+
+*Sudoku Solver
+*Rat in maze
+
+Some Imp Questions to revise
+1. Reverse the bits
+2. Single Number 3 (bit manipulation)
+3. Dividing two number using bit manipulation
+
+Incomplete Questions
+1. Gray Code
+2. Can I win
+
+Main Concepts
+
+Linked List
+
+* Tortoise hare algo :- The concept is that if one pointer moves twice the distance, when it reaches the end the other would have covered only half the distance
+This can be applicable in detecting cycle as well bcoz by the time the slow pointer reaches the end, the fast pointer would have travelled twice its distance so at some point they ought to meet if there is a cycle.  
+
+* To find the count of cycles in linkedlist  just get a place where both slow and fast are same and keep one the pointer constant and move the other until both slow and fast are equal on the way cnt the number 
+
+* Always remember fast moves 2d and slow moves d distance if u want the common point just move on and then if u notice for every loop distance is decreased by 1 bcoz fast goes by 2 and slow goes by 1
+……………………………………………………………………………………………...…………………………………………………...……………………………………………………………………………………………....……………………………………………………………………………………………....………………………………………………..
+Recursion
+
+* In recursion always remember if there are many options for a single index always loop it like [1,2,3] for next permutations starting index can be 1 or 2 or 3 and so on for all the indexes and also for palindromic string see the partition can take place in a first position or second or at last so loop it
+
+* In recursion always remember the pick and notpick method
+
+……………………………………………………………………………………………...…………………………………………………...……………………………………………………………………………………………....……………………………………………………………………………………………....………………………………………………
+Bit Manipulation
+
+* Right shift(>>) divide by 2^k , Left Shift(<<) multiply by 2^k
+* Check the set bit:- n&1<<i 
+* Clear the ith bit :- n&~(1<<i),Toggle xor it
+* Remove the right most set bit :- n & n-1 (very imp and also unsets a bit at right most position)
+* odd or even :- n&1==0, divide :- n>>1
+Tips :- Always while comparing in bit manipulation given two different numbers always atleast 1bit differs use that concept and separate into two buckets
+……………………………………………………………………………………………...…………………………………………………...……………………………………………………………………………………………....……………………………………………………………………………………………....………………………………………………
+Stacks And Queues
+* Infix to prefix :- First reverse the string and the preform the postfix, while performing for (^) <= and for others < and then reverse the answer
+* Prefix to Infix or Postfix :- For converting from prefix always start from the last
+* Postfix to Infix or Prefix :- Similar to prefix but start from the first
+* Main concept always when a circular array type problems is required first think about assuming an imaginary array which doesn't exist still can be retrieved using modulus operation
+Tips:-
+1. Subarray Problems: If the problem involves subarrays and you need to find maximums, minimums, or some other range-based property efficiently, consider whether a stack could help you maintain and query information about previous or next elements efficiently.
+2. Span Problems: Whenever you need to know how far an element can "extend" its influence to the left or right before encountering a smaller or larger element, a stack is a strong candidate.
