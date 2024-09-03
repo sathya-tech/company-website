@@ -56,8 +56,6 @@
   }
 
 
-
-
   @media (max-width: 768px) {
     .carousel-item {
       height: 300px; /* Adjust as needed for smaller screens */
