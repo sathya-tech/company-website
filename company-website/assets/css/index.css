@@ -55,6 +55,10 @@
      background: linear-gradient(white, white) padding-box, linear-gradient(to right, #ff7e5f, #feb47b) border-box;
   }
 
+  .hero-banner{
+    background-image: url(/company-website/assets/img/bg/2.jpg);
+    color: rgba(9, 162, 255, 0.85);
+  }
 
   @media (max-width: 768px) {
     .carousel-item {

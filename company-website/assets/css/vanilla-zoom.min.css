@@ -71,6 +71,20 @@
   left: 0;
 }
 
+.img-size{
+  height: 400px; 
+  object-fit: cover;
+}
+
+.footer-things{
+  display: flex; 
+  justify-content: center;
+   align-items: center;
+}
+
+.footer-things p{
+  font-weight: 600; margin: 0;
+}
 
 /* Ensures proper alignment of images and text for mobile screens */
 @media (max-width: 767px) {
